@@ -7,12 +7,12 @@ spring:
   kafka:
     security:
       protocol: "SSL"
-    bootstrap-servers: kafka-1173818850-1-1295651234.scus.kafka-buabookkeeping-sox-stg.ms-df-messaging.prod-az-southcentralus-27.prod.us.walmart.net:9093,kafka-1173818850-2-1295651237.scus.kafka-buabookkeeping-sox-stg.ms-df-messaging.prod-az-southcentralus-27.prod.us.walmart.net:9093,kafka-1173818850-3-1295651240.scus.kafka-buabookkeeping-sox-stg.ms-df-messaging.prod-az-southcentralus-27.prod.us.walmart.net:9093,kafka-1173818850-4-1295651243.scus.kafka-buabookkeeping-sox-stg.ms-df-messaging.prod-az-southcentralus-27.prod.us.walmart.net:9093,kafka-1173818850-5-1295651246.scus.kafka-buabookkeeping-sox-stg.ms-df-messaging.prod-az-southcentralus-27.prod.us.walmart.net:9093,kafka-1173818850-6-1295651249.scus.kafka-buabookkeeping-sox-stg.ms-df-messaging.prod-az-southcentralus-27.prod.us.walmart.net:9093
+    bootstrap-servers: xxxxxxxxxxxxxxx
     ssl:
       trust-store-location: 'file:/Users/k0d03gd/Library/CloudStorage/OneDrive-WalmartInc/BUA/share/buakafka.nonprod.wal-mart.com.jks'
-      trust-store-password: BuaBookkeeping2021
+      trust-store-password: xxxxxxxxxxxxxxxxxxxx
       key-store-location:  'file:/Users/k0d03gd/Library/CloudStorage/OneDrive-WalmartInc/BUA/share/buakafka.nonprod.wal-mart.com.jks'
-      key-store-password: BuaBookkeeping2021
+      key-store-password: xxxxxxxxxxxxxxxxx
     consumer:
       group-id: buatest
       auto-offset-reset: latest
